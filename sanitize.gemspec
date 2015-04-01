@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/rgrove/sanitize/'
 
   s.platform = Gem::Platform::RUBY
-  s.required_ruby_version = Gem::Requirement.new('>= 1.9.2')
+  s.required_ruby_version = Gem::Requirement.new('>= 1.8.7')
   s.required_rubygems_version = Gem::Requirement.new('>= 1.2.0')
 
   # Runtime dependencies.
@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   # Development dependencies.
   s.add_development_dependency('minitest',  '~> 4.7')
   s.add_development_dependency('rake',      '~> 10.1')
-  s.add_development_dependency('redcarpet', '~> 3.0.0')
   s.add_development_dependency('yard',      '~> 0.8.7')
 
   s.require_paths = ['lib']
